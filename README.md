@@ -1,2 +1,1 @@
-# misc
- 
+This repo contains small projects that I did not bother to create a repo for, a lot of this is really shitty code I don't bother to fix or improve
