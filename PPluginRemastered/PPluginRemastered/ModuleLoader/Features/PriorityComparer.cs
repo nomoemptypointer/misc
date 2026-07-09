@@ -1,0 +1,16 @@
+﻿using Exiled.API.Interfaces;
+
+namespace PPluginRemastered.ModuleLoader.Features
+{
+    public class PriorityComparer : IComparer<ICoreModule<IConfig>>
+    {
+        public int Compare(ICoreModule<IConfig> x, ICoreModule<IConfig> y)
+        {
+            int value = y.Priority.CompareTo(x.Priority);
+            if (value == 0)
+                value = x.GetHashCode().CompareTo(y.GetHashCode());
+
+            return value == 0 ? 1 : value;
+        }
+    }
+}
