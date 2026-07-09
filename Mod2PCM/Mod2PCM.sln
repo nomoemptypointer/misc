@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod2PCM", "Mod2PCM\Mod2PCM.csproj", "{5B4510AE-082D-438B-8977-2087F1DDA726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod2PCM.CLI", "Mod2PCM.CLI\Mod2PCM.CLI.csproj", "{D48FFD54-BC32-42F1-A800-CBB400F6BDA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B4510AE-082D-438B-8977-2087F1DDA726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4510AE-082D-438B-8977-2087F1DDA726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4510AE-082D-438B-8977-2087F1DDA726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4510AE-082D-438B-8977-2087F1DDA726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FEC4C34-3675-49E0-94CC-13C26FA95FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FEC4C34-3675-49E0-94CC-13C26FA95FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FEC4C34-3675-49E0-94CC-13C26FA95FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FEC4C34-3675-49E0-94CC-13C26FA95FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D48FFD54-BC32-42F1-A800-CBB400F6BDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D48FFD54-BC32-42F1-A800-CBB400F6BDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D48FFD54-BC32-42F1-A800-CBB400F6BDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D48FFD54-BC32-42F1-A800-CBB400F6BDA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {902B6B87-6E05-4162-B073-1E3975B2FCBF}
+	EndGlobalSection
+EndGlobal
